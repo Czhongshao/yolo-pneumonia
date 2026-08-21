@@ -1,0 +1,25 @@
+## Python Version == 3.10.6 FOR YOLO
+
+## notebook
+notebook==7.4.7
+ipykernel==7.0.1
+
+## numpy and pandas
+numpy==1.25.0
+pandas==2.0.3
+
+## plots
+# matplotlib==3.10.9
+seaborn==0.12.2
+
+## model train
+# ultralytics==8.4.56 # 该库已经存于项目根目录
+ultralytics-thop==2.0.19
+torch==2.5.0
+torchvision==0.20.0
+scikit-learn==1.3.0
+opencv-python==4.8.1.78
+
+## plugin
+tqdm==4.67.1
+imutils==0.5.4

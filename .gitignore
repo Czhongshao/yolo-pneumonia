@@ -1,0 +1,41 @@
+## This gitignore file working for xray-repo
+
+## ============================================
+
+## System files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+## IDEA and Edited Language ignore files
+# Using IDEA files
+.idea/
+.vscode/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+
+## data files
+*.jpeg
+*.jpg
+*.png
+*.npy
+*.zip
+
+
+## Result Models
+*.keras
+*.h5
+*.pth
+*.pt
+*.onnx
+
+## Result files
+runs/
+*.cache
